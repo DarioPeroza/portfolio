@@ -1,0 +1,39 @@
+#Learn-Together {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Learn-Together .background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/pexels-luis-gomes-546819.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+#Learn-Together .background div {
+    width: 100%;
+    background-color: rgba(2, 0, 15, .6);
+}
+#Learn-Together .background h1 {
+    font-family: "Cabin Condensed";
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+#Learn-Together .background p {
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 2rem;
+    margin-top: .4rem;
+    color: var(--primary);
+}
