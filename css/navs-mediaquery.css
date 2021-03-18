@@ -1,0 +1,17 @@
+@media (min-width: 1500px) {
+    #main-nav ul a {
+        font-size: 2rem;
+        height: 60px;
+        padding: 0 1.8rem;
+    }
+}
+@media (max-width: 480px) {
+    #main-nav #logo {
+        display: none;
+    }
+    #main-nav ul {
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+    }
+}

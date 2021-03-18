@@ -7,9 +7,13 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/navs.css">
+    <link rel="stylesheet" href="css/navs-mediaquery.css">
     <link rel="stylesheet" href="css/section-1.css">
     <link rel="stylesheet" href="css/section-2.css">
     <link rel="stylesheet" href="css/section-3.css">
+    <link rel="stylesheet" href="css/section-1-mediaquery.css">
+    <link rel="stylesheet" href="css/section-2-mediaquery.css">
+    <link rel="stylesheet" href="css/section-3-mediaquery.css">
     <title>Darío Peroza - Web Developer</title>
 </head>
 <body>
@@ -33,10 +37,15 @@
     </section>
     <section id="projects">
         <h2>Proyectos</h2>
-        <div class="projects-container">
-            <div class="project-item"></div>
-            <div class="project-item"></div>
-            <div class="project-item"></div>
+        <div id="projects-container">
+            <div class="projects-container">
+                <div class="project-item"></div>
+                <div class="project-item"></div>
+                <div class="project-item"></div>
+                <div class="project-item"></div>
+                <div class="project-item"></div>
+                <div class="project-item"></div>
+            </div>
         </div>
         <div class="arrow-buttons-container">
             <button id="left-arrow-button"><</button>
@@ -44,22 +53,25 @@
         </div>
     </section>
     <section id="contact">
-        <div class="contact-card">
-            <img src="img/perfil.png" alt="Yo">
-            <div>
-                <p>"Trabajamos para aprender y aprendemos para trabajar, pocas cosas valen mas que el conocimiento"</p>
-                <p>Hagamos un proyecto</p>
+        <div class="contact-card-container">
+            <div class="contact-card">
+                <img src="img/perfil.png" alt="Yo">
+                <div>
+                    <!--<p>"Trabajamos para aprender y aprendemos para trabajar, pocas cosas valen mas que el conocimiento"</p>-->
+                    <p>Hagamos un proyecto</p>
+                </div>
             </div>
         </div>
         <div class="social-medias">
-            <a href="#"><img src="img/svg/github.svg" alt="Github logo">Github</a>
-            <a href="#"><img src="img/svg/facebook.svg" alt="Facebook logo">Facebook</a>
-            <a href="#"><img src="img/svg/linkedin.svg" alt="Linkedin logo">Linkedin</a>
-            <a href="#"><img src="img/svg/whatsapp.svg" alt="Whatsapp logo">Whatsapp</a>
+            <a href="#"><img src="img/svg/github.svg" alt="Github logo"><p>Github</p></a>
+            <a href="#"><img src="img/svg/facebook.svg" alt="Facebook logo"><p>Facebook</p></a>
+            <a href="#"><img src="img/svg/linkedin.svg" alt="Linkedin logo"><p>Linkedin</p></a>
+            <a href="#"><img src="img/svg/whatsapp.svg" alt="Whatsapp logo"><p>Whatsapp</p></a>
         </div>
     </section>
     <nav id="second-nav">
         <button>+</button>
     </nav>
+    <script src="js/arrow-buttons.js"></script>
 </body>
 </html>

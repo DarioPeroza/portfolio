@@ -1,15 +1,22 @@
 #contact {
+    width: 100vw;
     height: 100vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     background: linear-gradient(180deg, rgba(43,20,65,1) -40%, rgba(2,0,15,1) 100%);
 }
-#contact .contact-card {
-    grid-column: 2/6;
-    grid-row: 2/5;
+#contact .contact-card-container {
+    height: 90vh;
+    flex-basis: 2fr;
     display: flex;
-    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+#contact .contact-card {
+    width: 80vw;
+    height: 40vh;
+    display: flex;
+    padding: 2rem;
     justify-content: center;
     align-items: center;
 }

@@ -1,0 +1,24 @@
+@media (min-width: 1500px) {
+    #projects h2 {
+        font-size: 5rem;
+    }
+    #projects .projects-container {
+        width: 150vw;
+    }
+}
+@media (max-width: 767px) {
+    #projects h2 {
+        font-size: 2.4rem;
+    }
+    #projects .projects-container {
+        width: 300vw;
+    }
+}
+@media (max-width: 480px) {
+    #projects h2 {
+        font-size: 2rem;
+    }
+    #projects .projects-container {
+        width: 600vw;
+    }
+}
