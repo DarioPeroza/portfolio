@@ -33,11 +33,11 @@
 }
 #projects .projects-container {
     height: 100%;
-    width: 200vw;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-wrap: nowrap;
+    transition: 1s;
 }
 #projects .project-item {
     background: white;
