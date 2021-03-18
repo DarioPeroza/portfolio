@@ -32,7 +32,7 @@ about.addEventListener("click", () => {
     hazScroll(0);
 });
 projects.addEventListener("click", () => {
-    hazScroll(projectContainer.offsetTop)
+    hazScroll(projectContainer.offsetTop - 50)
 });
 contact.addEventListener("click", () => {
     hazScroll(contactContainer.offsetTop)
