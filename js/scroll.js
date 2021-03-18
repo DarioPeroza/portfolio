@@ -1,3 +1,5 @@
+let projectContainer = document.getElementById("projects");
+let contactContainer = document.getElementById("contact");
 let liButtons = document.querySelectorAll(".nav-link");
 let about = liButtons[0];
 let projects = liButtons[1];
@@ -11,7 +13,9 @@ function hazScroll(number, speed = 1) {
         if (window.scrollY < number) {
             scrollBy(0,10)
         }
-        if (window.scrollY == number || window.scrollY == number -1 || window.scrollY == number -2 || window.scrollY == number -3 || window.scrollY == number -4 || window.scrollY == number -5 || window.scrollY == number -6 || window.scrollY == number -7 || window.scrollY == number -8 || window.scrollY == number -9) {
+        let numberMas = number + 10;
+        let numberMenos = number - 10;
+        if (window.scrollY < numberMas && window.scrollY > numberMenos) {
             return true;
         }
         hazScroll(number);
@@ -28,9 +32,9 @@ about.addEventListener("click", () => {
     hazScroll(0);
 });
 projects.addEventListener("click", () => {
-    hazScroll(664)
+    hazScroll(projectContainer.offsetTop)
 });
 contact.addEventListener("click", () => {
-    hazScroll(1448)
+    hazScroll(contactContainer.offsetTop)
 })
     
